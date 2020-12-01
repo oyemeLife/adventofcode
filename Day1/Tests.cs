@@ -1,18 +1,20 @@
 using NUnit.Framework;
+using Puzzle;
 
 namespace Day1
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
+        [Test]
+        public void ShouldBeMatchTo2020()
         {
+            Assert.AreEqual(436404, Puzzle.Program.FindSumOfTwoNumbers(2020));
         }
 
         [Test]
-        public void Test1()
+        public void ShouldBeMatchTo2010()
         {
-            Assert.Pass();
+            Assert.AreEqual(929369, Program.FindSumOfTwoNumbers(2010));
         }
     }
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <IsPackable>false</IsPackable>
+        <AssemblyName>Day1</AssemblyName>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="NUnit" Version="3.12.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.AssemblyInfo.cs" />
+      <Compile Remove="Day1Puzzle\Program.cs" />
+      <Compile Remove="Day1Puzzle\Program.cs" />
+      <Compile Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Day1Puzzle\obj\Day1Puzzle.csproj.nuget.g.targets" />
+      <None Remove="Day1Puzzle\obj\Day1Puzzle.csproj.nuget.g.props" />
+      <None Remove="Day1Puzzle\obj\Day1Puzzle.csproj.nuget.dgspec.json" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.AssemblyInfoInputs.cache" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Day1Puzzle.deps.json" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Day1Puzzle.runtimeconfig.json" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Day1Puzzle.runtimeconfig.dev.json" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Day1Puzzle.pdb" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Day1Puzzle.dll" />
+      <None Remove="Day1Puzzle\obj\project.nuget.cache" />
+      <None Remove="Day1Puzzle\obj\project.assets.json" />
+      <None Remove="Day1Puzzle\Input.txt" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.assets.cache" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.csproj.CoreCompileInputs.cache" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.assets.cache" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.csproj.CoreCompileInputs.cache" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.dll" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.genruntimeconfig.cache" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.csprojAssemblyReference.cache" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.pdb" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.AssemblyInfoInputs.cache" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.csproj.FileListAbsolute.txt" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.dll" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.pdb" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.csproj.FileListAbsolute.txt" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Day1Puzzle.csprojAssemblyReference.cache" />
+      <None Remove="Day1Puzzle\obj\Debug\netcoreapp3.1\Puzzle.genruntimeconfig.cache" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Puzzle.runtimeconfig.json" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Puzzle.deps.json" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Input.txt" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Puzzle.dll" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Puzzle.runtimeconfig.dev.json" />
+      <None Remove="Day1Puzzle\bin\Debug\netcoreapp3.1\Puzzle.pdb" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="Day1Puzzle\Puzzle.csproj" />
+    </ItemGroup>
+</Project>
